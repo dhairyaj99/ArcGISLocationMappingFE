@@ -52,7 +52,7 @@ private addMarker(location: Location): void {
   if (this.map) {
     const latLng = L.latLng(location.latitude, location.longitude);
     const marker = L.marker(latLng, {icon: L.icon({
-      iconUrl: '../assets/redmarker.png', // Path to your red marker icon
+      iconUrl: '../../assets/redmarker.png', // Path to your red marker icon
       iconSize: [30, 32], // Size of the icon
       iconAnchor: [12, 41], // Point of the icon which will correspond to marker's location
       popupAnchor: [1, -34], // Point from which the popup should open relative to the iconAnchor
